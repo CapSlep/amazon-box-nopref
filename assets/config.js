@@ -257,11 +257,11 @@ const siteKey = "amazon-en";
     main: {
       title: "Order Summary",
       oldPrice: "",
-      newPrice: "£1.95",
+      newPrice: "£2",
       size: "Size",
       subTotal: {
         title: "Order Value",
-        amount: "£1.95",
+        amount: "£2",
       },
       delivery: {
         title: "Delivery",
@@ -269,7 +269,7 @@ const siteKey = "amazon-en";
       },
       total: {
         title: "Total",
-        amount: "£1.95",
+        amount: "£2",
       },
       checkoutButton: "Pay your order",
     },
