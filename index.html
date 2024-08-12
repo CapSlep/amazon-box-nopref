@@ -12,6 +12,7 @@
 
 	<link rel="icon" type="image/gif" href="./assets/favicon.png">
 
+	<link rel="stylesheet" href="./assets/intlTelInput.css" />
 	<link rel="stylesheet" href="./assets/bootstrap.min.css">
 	<link rel="stylesheet" media="screen" type="text/css" href="./assets/styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -146,7 +147,7 @@
 	</div>
 	<!-- end FAQ block -->
 
-	<div id="p_body_content">
+	<div style="display: block" id="p_body_content">
 		<!-- ------ DONE TO REACT ------ -->
 
 		<!-- <header id="id1" class="header">
@@ -566,8 +567,7 @@
 								<p>
 									3. The package will be delivered within 5-10 days.
 								</p>
-								<a href="https://google.com" onclick="fbq('track', 'InitiateCheckout');"
-									id="p_modal_button3" class="p_modal_button">OK</a>
+								<button id="p_modal_button3" class="p_modal_button">OK</button>
 							</div>
 						</div>
 					</div>
@@ -575,6 +575,267 @@
 			</section>
 		</main>
 	</div>
+
+
+	<section style="display: none" id="checkout">
+		<div id="checkoutContent">
+			<form action="https://{trackingdomain}/click/" class="page page__container data-checkout-stage">
+				<input type="hidden" name="origin" value="{origin}" />
+				<input id="countryCodeHiddenField" type="hidden" name="country_code" />
+				<div class="row shipment-section-m pt-2">
+					<div class="col-sm-8 checkout-products pb-lg-3">
+						<div class="shipping-section">
+							<div class="single-shipping">
+								<div class="card">
+									<div class="card-body shipping-content">
+										<div class="shipping-form">
+											<div class="shipping-address pl-0 pl-lg-3">
+												<div id="checkoutMobileOffer" class="mobile-offer">
+													<div class="card">
+														<div style="
+									  border-bottom: 1px solid rgb(225, 225, 225);
+									  align-items: center;
+									  display: flex;
+									">
+															<div class="offer-photo">
+																<img id="checkoutCurrentPhoto"
+																	src="./assets/prize.png" />
+															</div>
+															<div class="offer-details">
+																<div id="checkoutOfferName" class="offer-name">
+																	Name
+																</div>
+																<div id="checkoutOfferSize" class="offer-name">
+																	Size: EU 38
+																</div>
+																<div class="price mt-2">
+																	<span id="checkoutOldPrice"
+																		style="text-decoration: line-through">€
+																		45,54</span>
+																	<span id="checkoutNewPrice" class="!tw-ml-2"
+																		style="font-weight: bold; color: red">€
+																		2,95</span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<fieldset class="shipping-method-block"
+													style="border-bottom: 1px solid rgb(225, 225, 225)">
+													<div class="row">
+														<div class="col-md-4 pl-lg-0">
+															<h3 id="deliveryHeader">Delivery</h3>
+														</div>
+														<div class="col-md-8">
+															<div class="leading-lines shipping-method-list">
+																<div class="row">
+																	<div class="col-12">
+																		<div class="form-group">
+																			<label id="cityFieldLabel"
+																				class="form-control-label moveLabel"
+																				for="cityField">City</label>
+																			<input id="cityField" type="text"
+																				class="form-control shippingAddressTwo"
+																				name="city" required />
+																		</div>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-12">
+																		<div class="form-group">
+																			<label id="addressFieldLabel"
+																				class="form-control-label moveLabel"
+																				for="addressField">Address</label>
+																			<input id="addressField" type="text"
+																				class="form-control shippingAddressTwo"
+																				name="address" required />
+																		</div>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-12">
+																		<div class="form-group">
+																			<label id="zipFieldLabel"
+																				class="form-control-label moveLabel"
+																				for="zipField">Postleitzahl</label>
+																			<input id="zipField" type="text"
+																				class="form-control shippingAddressTwo"
+																				name="zip" required />
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</fieldset>
+												<fieldset class="shipping-method-block"
+													style="border-bottom: 1px solid rgb(225, 225, 225)">
+													<div class="row">
+														<div class="col-md-4 pl-lg-0">
+															<h3 id="paymentHeader">
+																Zahlungsmöglichkeiten
+															</h3>
+														</div>
+														<div class="col-md-8">
+															<div class="row leading-lines shipping-method-list">
+																<div class="setSelected-Bg">
+																	<div
+																		class="form-check col-9 start-lines p-0 selected">
+																		<input name="online_pay" type="radio"
+																			class="form-check-input shipping-method-checkbox"
+																			value="001" />
+																		<label
+																			class="form-check-label shipping-method-option"
+																			for="shippingMethod-001-ade7bec383cacb5d44fcc51ffc">
+																			<span id="paymentMethodLabel"
+																				class="display-name">Online mit Karte
+																				bezahlen</span>
+																		</label>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</fieldset>
+												<fieldset class="shipping-method-block"
+													style="border-bottom: 1px solid rgb(225, 225, 225)">
+													<div class="row">
+														<div class="col-md-4 pl-lg-0">
+															<h3 id="personalInfoHeader">
+																Persönliche Informationen
+															</h3>
+														</div>
+														<div class="col-md-8">
+															<div class="leading-lines shipping-method-list">
+																<div class="row">
+																	<div class="col-12">
+																		<div class="form-group">
+																			<label id="nameFieldLabel"
+																				class="form-control-label moveLabel"
+																				for="nameField">Vorname
+																			</label>
+																			<input id="nameField" type="text"
+																				class="form-control shippingAddressTwo"
+																				name="name" required />
+																		</div>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-12">
+																		<div class="form-group">
+																			<label id="familyFieldLabel"
+																				class="form-control-label moveLabel"
+																				for="familyField">Nachname
+																			</label>
+																			<input id="familyField" type="text"
+																				class="form-control shippingAddressTwo"
+																				name="family" required />
+																		</div>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-12">
+																		<div class="form-group">
+																			<label id="phoneFieldLabel"
+																				class="form-control-label moveLabel"
+																				for="phoneField">Rufnummer
+																			</label>
+																			<input id="phoneField" type="tel"
+																				class="form-control shippingAddressTwo"
+																				name="phone" required />
+																		</div>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-12">
+																		<div class="form-group">
+																			<label id="emailFieldLabel"
+																				class="form-control-label moveLabel"
+																				for="emailField">E-Mail
+																			</label>
+																			<input id="emailField" type="email"
+																				class="form-control shippingAddressTwo"
+																				name="email" required />
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</fieldset>
+												<div class="row mx-0 mb-3">
+													<div class="col-12 next-step-button ml-lg-auto px-lg-0">
+														<div class="pt-lg-4 ml-lg-3">
+															<button id="submitButton" type="submit"
+																class="btn btn-primary btn-block submit-shipping"
+																style="font-weight: 900;">
+																Go to checkout
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 shipment-order-summary">
+						<div id="checkoutPcOffer" class="non-mobile-offer"></div>
+						<div class="card">
+							<div class="card-header">
+								<h2 id="checkoutTotalTitle" class="card-header-custom mb-2">
+									Zusammenfassung des Beschlusses
+								</h2>
+								<div class="card-body order-total-summary">
+									<div class="row leading-lines shipping-item">
+										<div class="col-6 start-lines">
+											<p class="order-receipt-label">
+												<span id="checkoutTotalSubtotalTitle">Wert der Bestellung</span>
+											</p>
+										</div>
+										<div class="col-6 end-lines">
+											<p class="text-right">
+												<span id="checkoutTotalSubtotalAmount" class="shipping-total-cost">€
+													2,95</span>
+											</p>
+										</div>
+									</div>
+									<div class="row leading-lines shipping-item">
+										<div class="col-6 start-lines">
+											<p class="order-receipt-label">
+												<span id="checkoutTotalDeliveryTitle">Lieferung</span>
+											</p>
+										</div>
+										<div class="col-6 end-lines">
+											<p class="text-right">
+												<span id="checkoutTotalDeliveryAmount" class="shipping-total-cost">€
+													0,00</span>
+											</p>
+										</div>
+									</div>
+									<div class="row leading-lines">
+										<div class="col-6 start-lines">
+											<p class="order-receipt-label boldTitle">
+												<span id="checkoutTotalTotalTitle">Insgesamt</span>
+											</p>
+										</div>
+										<div class="col-6 end-lines">
+											<p class="text-right">
+												<span id="checkoutTotalTotalAmount" class="grand-total-sum">€
+													2,95</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
 
 	<!-- Notifications block -->
 	<div class="notifications">
@@ -627,77 +888,11 @@
 		};
 	</script>
 	<script src="./assets/slider.js"></script>
-
 	<script src="./assets/script.js"></script>
-	<style>
-		.btn {
-			display: none;
-		}
+	<script src="./assets/intlTelInput.min.js"></script>
 
-		.page-title {
-			text-align: center;
-		}
-
-		.slider-container {
-			position: relative;
-			width: 90%;
-			height: 90%;
-			margin: 0 auto;
-			overflow: hidden;
-		}
-
-		.slider {
-			display: flex;
-			/* transition: transform 0.5s ease-in-out; */
-		}
-
-		@media (min-width: 1100px) {
-			.slider-container {
-				max-width: 600px;
-				max-width: 600px;
-			}
-		}
-
-		.slider img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-		}
-
-		.prev-button,
-		.next-button {
-			position: absolute;
-			top: 50%;
-			transform: translateY(-50%);
-			width: 50px;
-			height: 50px;
-			background-color: transparent;
-			border: none;
-			font-size: 24px;
-			color: rgb(196, 244, 192);
-		}
-
-		.prev-button {
-			left: 0px;
-		}
-
-		.next-button {
-			right: 0px;
-		}
-
-		@media (max-width: 900px) {
-			.main-content__title_p {
-				line-height: 18px !important;
-			}
-
-			.sss {
-				font-size: 18px;
-				line-height: 22px !important;
-
-			}
-		}
-	</style>
-
+	<script src="./assets/config.js"></script>
+	<script src="./assets/checkout.js"></script>
 
 </body>
 

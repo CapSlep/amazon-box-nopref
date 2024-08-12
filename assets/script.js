@@ -10,6 +10,8 @@ const giftImg = document.querySelectorAll(".caja_gift-img");
 const giftImgModal = document.querySelector(".gift-img-modal");
 const giftImgWin = document.querySelector(".img_gift");
 
+
+
 function displayGift(event) {
     let answer = event.target.dataset.answer;
     // const images = {
@@ -26,6 +28,7 @@ function displayGift(event) {
     giftImgModal.src = imgPath;
     giftImgWin.src = imgPath;
     // return imgPath;
+
 }
 qq3.addEventListener("click", (e) => displayGift(e));
 
