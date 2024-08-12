@@ -366,14 +366,14 @@ const starupCheck = () => {
 
 window.addEventListener("load", () => {
 
-  const finalButton = document.getElementById("p_modal_button3");
+  // const finalButton = document.getElementById("p_modal_button3");
 
-  finalButton.addEventListener('click', (event) => {
-    jQuery("#p_modal2").modal("hide");
-    closeMain();
-    openCheckout();
-    checkoutInit();
-  });
+  // finalButton.addEventListener('click', (event) => {
+  //   jQuery("#p_modal2").modal("hide");
+  //   closeMain();
+  //   openCheckout();
+  //   checkoutInit();
+  // });
 });
 
 const lsSelectProduct = (val) =>
