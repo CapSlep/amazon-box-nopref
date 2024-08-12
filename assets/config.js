@@ -209,69 +209,69 @@ const siteKey = "amazon-en";
 
   const cartSteps = {
     personal: {
-      title: "Personal Information",
+      title: "Información Personal",
       fields: {
         name: {
           enabled: true,
-          field: "First Name",
+          field: "Nombre",
         },
         family: {
           enabled: true,
-          field: "Last Name",
+          field: "Apellido",
         },
         phone: {
           enabled: true,
-          field: "Phone Number",
+          field: "Número de Teléfono",
         },
         email: {
           enabled: true,
-          field: "Email",
+          field: "Correo Electrónico",
         },
       },
     },
     delivery: {
-      title: "Delivery",
+      title: "Entrega",
       fields: {
         city: {
           enabled: true,
-          field: "City",
+          field: "Ciudad",
         },
         address: {
           enabled: true,
-          field: "Delivery Address",
+          field: "Dirección de Entrega",
         },
         zip: {
           enabled: true,
-          field: "Postal Code",
+          field: "Código Postal",
         },
       },
     },
     payment: {
-      title: "Payment Methods",
-      creditCard: "Online payment by credit card",
+      title: "Métodos de Pago",
+      creditCard: "Pago en línea con tarjeta de crédito",
     },
   };
 
   const cart = {
     steps: cartSteps,
     main: {
-      title: "Order Summary",
+      title: "Resumen del Pedido",
       oldPrice: "",
-      newPrice: "£2",
-      size: "Size",
+      newPrice: "2,00 €",
+      size: "Talla",
       subTotal: {
-        title: "Order Value",
-        amount: "£2",
+        title: "Valor del Pedido",
+        amount: "2,00 €",
       },
       delivery: {
-        title: "Delivery",
-        amount: "£0.00",
+        title: "Entrega",
+        amount: "0,00 €",
       },
       total: {
         title: "Total",
-        amount: "£2",
+        amount: "2,00 €",
       },
-      checkoutButton: "Pay your order",
+      checkoutButton: "Paga tu pedido",
     },
   };
 
