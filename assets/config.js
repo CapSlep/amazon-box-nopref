@@ -49,43 +49,42 @@ const siteKey = "amazon-en";
 
   const reviewsArr = [
     {
-      name: "Luis",
+      name: "Josefien",
       time: "1 day ago",
-      header: "This is amazing!",
+      header: "This is unexpected!",
       product: "26468782",
-      review:
-        "As a long-time customer, I was really surprised to get my favorite menu at such a low price 😊.",
+      image: "./assets/1.jpg",
+      review: "Just yesterday I left a request, but my sister has already received my Starlink. She took part a week earlier and I decided to wait until she was delivered to Starlink to understand the truth or not.",
     },
     {
-      name: "Antonio",
+      name: "Anton",
       time: "2 days ago",
       header: "Fantastic! I'm speechless.",
       product: "26468789",
-      review:
-        "First time participating in such promotions and I got the menu, thank you.",
+      image: "./assets/2.png",
+      review: "I took part in the sale and today received my Starlink terminal, the appearance is even better than in the photo.",
     },
     {
-      name: "Josef",
+      name: "Jan",
       time: "2 days ago",
-      header: "Simply great.",
-      product: "26468783",
-      review:
-        "It was delicious, enough for the whole family and even had some leftovers.",
-    },
-    {
-      name: "Miguel",
-      time: "4 days ago",
       header: "I love it.",
-      review:
-        "Honestly, I love fast food, and this promotion was just for me.",
+      product: "26468783",
+      review: "Thanks to Tesco for this sale, I just won Starlink on the first attempt.They called me and agreed on the delivery date.",
     },
     {
-      name: "Juan",
+      name: "Nico",
+      time: "4 days ago",
+      header: "Simply great",
+      image: "./assets/3.jpg",
+      review: "This is true, they just brought me Starlink, I still can’t believe that I received it in just 2 £.",
+    },
+    {
+      name: "Jackson",
       time: "7 days ago",
-      header: "Wow, I am absolutely delighted with this product!",
+      header: "Wow, I'm absolutely impressed with this product!",
       product: "26468784",
-      review:
-        "It must be a joke! At first, I thought it was a scam because of the price, but luckily I didn't pass up the offer and ordered it, thank you.",
+      image: "./assets/4.png",
+      review: "Delivery lingered for two days, but I am still very pleased with the purchase!",
     },
   ];
 
@@ -93,7 +92,7 @@ const siteKey = "amazon-en";
     reviews: reviewsArr,
     rr: "NOTES AND REVIEWS",
     percent: "99%",
-    rec: "comments on this action",
+    rec: "Testimonials from customers who have received the product",
   };
 
   const questions = {

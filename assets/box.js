@@ -69,12 +69,6 @@ var boxRoot;
 				// jQuery(".sweet-overlay, .modal2").fadeOut("slow");
 				jQuery("#p_modal2").modal("hide");
 			});
-
-			jQuery("#p_modal_button3").on("click", function (event) {
-				event.stopPropagation();
-				// jQuery(".sweet-overlay, .modal2").fadeOut("slow");
-				jQuery("#p_modal3").modal("hide");
-			});
 		},
 	};
 
