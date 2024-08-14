@@ -51,48 +51,48 @@ const siteKey = "amazon-en";
     {
       name: "Josefien",
       time: "1 day ago",
-      header: "This is unexpected!",
+      header: "Esto es inesperado!",
       product: "26468782",
       image: "./assets/1.jpg",
-      review: "Just yesterday I left a request, but my sister has already received my Mystery Box.She took part a week earlier and I decided to wait until she was delivered to the box in order to understand the truth or not.",
+      review: "Justo ayer dejé una solicitud, pero mi hermana ya recibió mi caja misteriosa. Participó una semana antes y decidí esperar hasta que la entregaron a la caja para comprender la verdad o no..",
     },
     {
       name: "Anton",
       time: "2 days ago",
-      header: "Fantastic! I'm speechless.",
+      header: "¡Fantástico!Estoy sin palabras.",
       product: "26468789",
       image: "./assets/2.png",
-      review: "I took part in the sale and today received my Mystery Box, just look at how many things are there.",
+      review: "Participé en la venta y hoy recibí mi caja misteriosa, solo mira cuántas cosas hay.",
     },
     {
       name: "Jan",
       time: "2 days ago",
-      header: "I love it.",
+      header: "Me encanta.",
       product: "26468783",
-      review: "Thanks to Amazon for this sale, I just won Mystery Box on the first attempt.They called me and agreed on the delivery date.",
+      review: "Gracias a Amazon por esta venta, acabo de ganar Mystery Box en el primer intento. Me llamaron y acordaron la fecha de entrega.",
     },
     {
       name: "Nico",
       time: "4 days ago",
-      header: "Simply great",
+      header: "Simplemente genial",
       image: "./assets/3.jpg",
-      review: "This is true, they just brought me the parcel, I still can’t believe that I got so much in just 2 pounds.",
+      review: "Esto es cierto, simplemente me trajeron el paquete, todavía no puedo creer que haya tenido tanto en solo 2 libras.",
     },
     {
       name: "Jackson",
       time: "7 days ago",
-      header: "Wow, I'm absolutely impressed with this product!",
+      header: "Wow, estoy absolutamente impresionada con este producto!",
       product: "26468784",
       image: "./assets/4.png",
-      review: "Delivery lingered for two days, but I am still very pleased with the purchase!",
+      review: "La entrega permaneció durante dos días, ¡pero todavía estoy muy satisfecho con la compra!",
     },
   ];
 
   const reviews = {
     reviews: reviewsArr,
-    rr: "NOTES AND REVIEWS",
+    rr: "Notas y reseñas",
     percent: "99%",
-    rec: "Testimonials from customers who have received the product",
+    rec: "Testimonios de clientes que han recibido el producto",
   };
 
   const questions = {

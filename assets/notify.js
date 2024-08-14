@@ -63,15 +63,15 @@ class Notify {
 const data = [
     {
         name: "Vernay Vio****",
-        address: "London, England",
-        desc: "Won a Amazon Mystery Box",
+        address: "Madrid, España",
+        desc: "Ganó una caja misteriosa de Amazon",
         img: "./assets/prize.png",
         time: "15 sec",
     },
     {
         name: "Solaina La****",
-        address: "Manchester, England",
-        desc: "Won a Amazon Mystery Box.",
+        address: "Valencia, España",
+        desc: "Ganó una caja misteriosa de Amazon.",
         img: "./assets/prize.png",
         time: "25 sec",
     },
