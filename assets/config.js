@@ -54,7 +54,7 @@ const siteKey = "amazon-en";
       header: "This is unexpected!",
       product: "26468782",
       image: "./assets/1.jpg",
-      review: "Just yesterday I left a request, but my sister has already received my Starlink. She took part a week earlier and I decided to wait until she was delivered to Starlink to understand the truth or not.",
+      review: "Just yesterday I left a request, but my sister has already received my Mystery Box.She took part a week earlier and I decided to wait until she was delivered to the box in order to understand the truth or not.",
     },
     {
       name: "Anton",
@@ -62,21 +62,21 @@ const siteKey = "amazon-en";
       header: "Fantastic! I'm speechless.",
       product: "26468789",
       image: "./assets/2.png",
-      review: "I took part in the sale and today received my Starlink terminal, the appearance is even better than in the photo.",
+      review: "I took part in the sale and today received my Mystery Box, just look at how many things are there.",
     },
     {
       name: "Jan",
       time: "2 days ago",
       header: "I love it.",
       product: "26468783",
-      review: "Thanks to Tesco for this sale, I just won Starlink on the first attempt.They called me and agreed on the delivery date.",
+      review: "Thanks to Amazon for this sale, I just won Mystery Box on the first attempt.They called me and agreed on the delivery date.",
     },
     {
       name: "Nico",
       time: "4 days ago",
       header: "Simply great",
       image: "./assets/3.jpg",
-      review: "This is true, they just brought me Starlink, I still can’t believe that I received it in just 2 £.",
+      review: "This is true, they just brought me the parcel, I still can’t believe that I got so much in just 2 pounds.",
     },
     {
       name: "Jackson",
