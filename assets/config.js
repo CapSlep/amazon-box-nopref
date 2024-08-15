@@ -69,14 +69,14 @@ const siteKey = "amazon-en";
       time: "2 days ago",
       header: "Me encanta.",
       product: "26468783",
-      review: "Gracias a Amazon por esta venta, acabo de ganar Mystery Box en el primer intento. Me llamaron y acordaron la fecha de entrega.",
+      review: "Gracias a Amazon por esta venta, acabo de ganar caja misteriosa de Amazon en el primer intento. Me llamaron y acordaron la fecha de entrega.",
     },
     {
       name: "Nico",
       time: "4 days ago",
       header: "Simplemente genial",
       image: "./assets/3.jpg",
-      review: "Esto es cierto, simplemente me trajeron el paquete, todavía no puedo creer que haya tenido tanto en solo 2 libras.",
+      review: "Esto es cierto, simplemente me trajeron el paquete, todavía no puedo creer que haya tenido tanto en solo 2€.",
     },
     {
       name: "Jackson",
@@ -277,7 +277,7 @@ const siteKey = "amazon-en";
   const products = [
     {
       id: "26468782",
-      name: "Amazon Mystery Box",
+      name: "Caja misteriosa de Amazon",
       miniImg: "./assets/prize.png",
 
       images: [
