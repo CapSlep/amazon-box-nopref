@@ -2575,6 +2575,10 @@ p {
     font-size: 1.5rem;
 }
 
+.rat .nav-logo .logo {
+    height: 3.8rem;
+}
+
 .nav-singin .border p {
     margin-bottom: 0;
 }
