@@ -50,49 +50,49 @@ const siteKey = "amazon-en";
   const reviewsArr = [
     {
       name: "Josefien",
-      time: "1 dag geleden",
-      header: "Het is onverwacht!",
+      time: "Il y a 1 jour",
+      header: "C'est inattendu!",
       product: "26468782",
       image: "./assets/1.jpg",
-      review: "Gisteren liet ik een verzoek achter, maar mijn zus ontving al mijn mysterieuze doos.",
+      review: "Hier, j'ai quitté une demande, mais ma sœur a déjà reçu ma mystérieuse boîte.Il a participé une semaine auparavant et a décidé d'attendre qu'ils l'ont livré à la boîte pour comprendre la vérité ou non.",
     },
     {
       name: "Anton",
-      time: "2 dagen geleden",
-      header: "Fantastisch!Ik ben sprakeloos.",
+      time: "Il y a 2 jours",
+      header: "Fantastique! Je suis sans voix.",
       product: "26468789",
       image: "./assets/2.png",
-      review: "Ik heb deelgenomen aan de verkoop en vandaag heb ik mijn mysterieuze doos ontvangen, kijk naar hoeveel dingen er zijn.",
+      review: "J'ai participé à la vente et aujourd'hui j'ai reçu ma mystérieuse boîte, regardez combien de choses il y a.",
     },
     {
       name: "Jan",
-      time: "2 dagen geleden",
-      header: "Ik vind het leuk.",
+      time: "Il y a 2 jours",
+      header: "J'aime.",
       product: "26468783",
-      review: "Dank aan Amazon voor deze verkoop heb ik net de mysterieuze Amazon -box gewonnen in de eerste poging..",
+      review: "Grâce à Amazon pour cette vente, je viens de remporter la mystérieuse boîte d'Amazon dans la première tentative.Ils m'ont appelé et ont convenu de la date de livraison.",
     },
     {
       name: "Nico",
-      time: "4 dagen geleden",
-      header: "Gewoon geweldig",
+      time: "Il y a 4 jours",
+      header: "Tout simplement génial",
       image: "./assets/3.jpg",
-      review: "Het is waar, ze hebben me gewoon het pakket gebracht, ik kan nog steeds niet geloven dat ik zoveel mensen had in slechts € 2.",
+      review: "C'est vrai, ils m'ont simplement apporté le package, je ne peux toujours pas croire que j'avais tant de personnes en seulement 2 €.",
     },
     {
       name: "Jackson",
-      time: "7 dagen geleden",
-      header: "Wow, ik ben absoluut onder de indruk van dit product!",
+      time: "Il y a 7 jours",
+      header: "Wow, je suis absolument impressionné par ce produit!",
       product: "26468784",
       image: "./assets/4.png",
-      review: "De levering bleef twee dagen, maar ik ben altijd zeer tevreden met de aankoop!",
+      review: "La livraison est restée pendant deux jours, mais je suis toujours très satisfait de l'achat!",
     },
   ];
 
   const reviews = {
     reviews: reviewsArr,
-    rr: "Aantekeningen en meningen",
+    rr: "Notes et avis",
     percent: "99%",
-    rec: "Getuigenissen van klanten die het product hebben ontvangen",
+    rec: "Témoignages de clients qui ont reçu le produit",
   };
 
   const questions = {
