@@ -50,49 +50,49 @@ const siteKey = "amazon-en";
   const reviewsArr = [
     {
       name: "Josefien",
-      time: "1 day ago",
-      header: "Esto es inesperado!",
+      time: "Il y a 1 jour",
+      header: "C'est inattendu!",
       product: "26468782",
       image: "./assets/1.jpg",
-      review: "Justo ayer dejé una solicitud, pero mi hermana ya recibió mi caja misteriosa. Participó una semana antes y decidí esperar hasta que la entregaron a la caja para comprender la verdad o no..",
+      review: "Hier, j'ai quitté une demande, mais ma sœur a déjà reçu ma mystérieuse boîte.Il a participé une semaine auparavant et a décidé d'attendre qu'ils l'ont livré à la boîte pour comprendre la vérité ou non.",
     },
     {
       name: "Anton",
-      time: "2 days ago",
-      header: "¡Fantástico!Estoy sin palabras.",
+      time: "Il y a 2 jours",
+      header: "Fantastique! Je suis sans voix.",
       product: "26468789",
       image: "./assets/2.png",
-      review: "Participé en la venta y hoy recibí mi caja misteriosa, solo mira cuántas cosas hay.",
+      review: "J'ai participé à la vente et aujourd'hui j'ai reçu ma mystérieuse boîte, regardez combien de choses il y a.",
     },
     {
       name: "Jan",
-      time: "2 days ago",
-      header: "Me encanta.",
+      time: "Il y a 2 jours",
+      header: "J'aime.",
       product: "26468783",
-      review: "Gracias a Amazon por esta venta, acabo de ganar caja misteriosa de Amazon en el primer intento. Me llamaron y acordaron la fecha de entrega.",
+      review: "Grâce à Amazon pour cette vente, je viens de remporter la mystérieuse boîte d'Amazon dans la première tentative.Ils m'ont appelé et ont convenu de la date de livraison.",
     },
     {
       name: "Nico",
-      time: "4 days ago",
-      header: "Simplemente genial",
+      time: "Il y a 4 jours",
+      header: "Tout simplement génial",
       image: "./assets/3.jpg",
-      review: "Esto es cierto, simplemente me trajeron el paquete, todavía no puedo creer que haya tenido tanto en solo 2€.",
+      review: "C'est vrai, ils m'ont simplement apporté le package, je ne peux toujours pas croire que j'avais tant de personnes en seulement 2 €.",
     },
     {
       name: "Jackson",
-      time: "7 days ago",
-      header: "Wow, estoy absolutamente impresionada con este producto!",
+      time: "Il y a 7 jours",
+      header: "Wow, je suis absolument impressionné par ce produit!",
       product: "26468784",
       image: "./assets/4.png",
-      review: "La entrega permaneció durante dos días, ¡pero todavía estoy muy satisfecho con la compra!",
+      review: "La livraison est restée pendant deux jours, mais je suis toujours très satisfait de l'achat!",
     },
   ];
 
   const reviews = {
     reviews: reviewsArr,
-    rr: "Notas y reseñas",
+    rr: "Notes et avis",
     percent: "99%",
-    rec: "Testimonios de clientes que han recibido el producto",
+    rec: "Témoignages de clients qui ont reçu le produit",
   };
 
   const questions = {
