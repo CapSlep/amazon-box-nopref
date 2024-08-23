@@ -50,49 +50,49 @@ const siteKey = "amazon-en";
   const reviewsArr = [
     {
       name: "Josefien",
-      time: "1 dag geleden",
-      header: "Het is onverwacht!",
+      time: "1 day ago",
+      header: "Esto es inesperado!",
       product: "26468782",
       image: "./assets/1.jpg",
-      review: "Gisteren liet ik een verzoek achter, maar mijn zus ontving al mijn mysterieuze doos.",
+      review: "Justo ayer dejé una solicitud, pero mi hermana ya recibió mi caja misteriosa. Participó una semana antes y decidí esperar hasta que la entregaron a la caja para comprender la verdad o no..",
     },
     {
       name: "Anton",
-      time: "2 dagen geleden",
-      header: "Fantastisch!Ik ben sprakeloos.",
+      time: "2 days ago",
+      header: "¡Fantástico!Estoy sin palabras.",
       product: "26468789",
       image: "./assets/2.png",
-      review: "Ik heb deelgenomen aan de verkoop en vandaag heb ik mijn mysterieuze doos ontvangen, kijk naar hoeveel dingen er zijn.",
+      review: "Participé en la venta y hoy recibí mi caja misteriosa, solo mira cuántas cosas hay.",
     },
     {
       name: "Jan",
-      time: "2 dagen geleden",
-      header: "Ik vind het leuk.",
+      time: "2 days ago",
+      header: "Me encanta.",
       product: "26468783",
-      review: "Dank aan Amazon voor deze verkoop heb ik net de mysterieuze Amazon -box gewonnen in de eerste poging..",
+      review: "Gracias a Amazon por esta venta, acabo de ganar caja misteriosa de Amazon en el primer intento. Me llamaron y acordaron la fecha de entrega.",
     },
     {
       name: "Nico",
-      time: "4 dagen geleden",
-      header: "Gewoon geweldig",
+      time: "4 days ago",
+      header: "Simplemente genial",
       image: "./assets/3.jpg",
-      review: "Het is waar, ze hebben me gewoon het pakket gebracht, ik kan nog steeds niet geloven dat ik zoveel mensen had in slechts € 2.",
+      review: "Esto es cierto, simplemente me trajeron el paquete, todavía no puedo creer que haya tenido tanto en solo $40.",
     },
     {
       name: "Jackson",
-      time: "7 dagen geleden",
-      header: "Wow, ik ben absoluut onder de indruk van dit product!",
+      time: "7 days ago",
+      header: "Wow, estoy absolutamente impresionada con este producto!",
       product: "26468784",
       image: "./assets/4.png",
-      review: "De levering bleef twee dagen, maar ik ben altijd zeer tevreden met de aankoop!",
+      review: "La entrega permaneció durante dos días, ¡pero todavía estoy muy satisfecho con la compra!",
     },
   ];
 
   const reviews = {
     reviews: reviewsArr,
-    rr: "Aantekeningen en meningen",
+    rr: "Notas y reseñas",
     percent: "99%",
-    rec: "Getuigenissen van klanten die het product hebben ontvangen",
+    rec: "Testimonios de clientes que han recibido el producto",
   };
 
   const questions = {

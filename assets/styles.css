@@ -2567,16 +2567,7 @@ p {
     background-size: contain;
     background-repeat: no-repeat; */
     height: 2.8rem;
-    margin-top: 10px;
-    margin-right: -2px;
-    /* width: 11.5rem; */
-}
-.logo__code {
-    font-size: 1.5rem;
-}
-
-.rat .nav-logo .logo {
-    height: 3.8rem;
+    width: 11.5rem;
 }
 
 .nav-singin .border p {
